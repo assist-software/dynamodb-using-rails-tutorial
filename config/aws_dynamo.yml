@@ -1,0 +1,4 @@
+aws_dynamo:
+  access_key_id: "xxxxxxxxxxxxxxxxxxxx"
+  secret_access_key: "xxxxxxxxxxxxxxxxxxxx"
+  region: "eu-west-1"

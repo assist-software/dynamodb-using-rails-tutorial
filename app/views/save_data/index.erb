@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form_main">
+        <h4 class="heading"><strong>Quick </strong> Contact <span></span></h4>
+        <div class="form">
+          <%= form_tag('save_data/save', method: 'post', html: {class: 'contactFrn'}) do %>
+            <%= text_field_tag 'name', nil, placeholder: 'Please input your Name', class: 'txt' %>
+            <%= text_field_tag 'mob', nil, placeholder: 'Please input your mobile No', class: 'txt' %>
+            <%= text_field_tag 'email', nil, placeholder: 'Please input your Email', class: 'txt' %>
+
+            <%= text_area_tag 'mess', nil, placeholder: 'Your Message', class: 'txt_3', type: 'text' %>
+            <%= submit_tag 'submit', class: 'txt2', name: 'submit' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
